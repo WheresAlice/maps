@@ -1,0 +1,17 @@
+baseURL = "https://maps.wheresalice.info"
+languageCode = "en-us"
+title = "Alice's Maps"
+theme = "smol"
+[markup.goldmark.renderer]
+unsafe= true
+[menu]
+  [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 3
+# Footer
+  [[menu.footer]]
+        name = "GitHub"
+        url = "https://github.com/wheresalice/maps"
+        weight = 1
